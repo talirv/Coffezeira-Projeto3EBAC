@@ -28,3 +28,13 @@ font-family: "Poppins", sans-serif;
 .navbar-brand:hover{
   color:#F2E6DF; 
 }
+
+
+.navbar-toggler {
+  background-color: #2f9a74;
+}
+
+.section-title {
+  font-family:"Poppins", sans-serif;
+  color: #14463a;
+}
