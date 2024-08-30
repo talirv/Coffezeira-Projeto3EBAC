@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Seaweed+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 .navbar{
@@ -6,24 +6,25 @@
   font-weight: 400;
 }
 
-.nav  .nav-link.active{
+#cabecalho .nav  .nav-link.active{
 background-color:#2f9a74;
 color: #14463a;
 font-family: "Poppins", sans-serif;
 }
-.nav  .nav-link.active:hover{
+
+#cabecalho .nav  .nav-link.active:hover{
   background-color:#F2E6DF;
  
-  
   }
 
 
-.navbar-brand {
-  font-family: "Seaweed Script", cursive;
-  font-size: 2rem;
+#cabecalho .navbar-brand {
+  font-family: "Homemade Apple", cursive;
+  font-size: 1.5rem;
 }
 
-.nav  .nav-link,
+#cabecalho .nav 
+.nav-link,
 .navbar-brand,
 .navbar-brand:hover{
   color:#F2E6DF; 
@@ -35,6 +36,24 @@ font-family: "Poppins", sans-serif;
 }
 
 .section-title {
-  font-family:"Poppins", sans-serif;
+  font-family: "Homemade Apple", cursive;
   color: #14463a;
 }
+
+.text-style {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-cardapio .nav-link.active {
+  background-color: #14463a;
+  color: #164f40;
+}
+
+.nav-cardapio .nav-link {
+  color: #164f40;
+}
+
+.nav-cardapio .nav-link:hover {
+  color:#d8f3e6;
+}
+
