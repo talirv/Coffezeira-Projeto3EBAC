@@ -44,16 +44,48 @@ font-family: "Poppins", sans-serif;
   font-family: "Poppins", sans-serif;
 }
 
-.nav-cardapio .nav-link.active {
+#sobre, #cardapio {
+  background-color: #effaf5;
+}
+
+.nav-cardapio .nav-link.active, #contato button{
   background-color: #14463a;
-  color: #164f40;
+  color: #2e9b7a;
 }
 
-.nav-cardapio .nav-link {
-  color: #164f40;
+.nav-cardapio .nav-link{
+  color: #2e9b7a;
 }
 
-.nav-cardapio .nav-link:hover {
-  color:#d8f3e6;
+.nav-cardapio .nav-link:hover,
+#contato button {
+  color:#2e9b7a;
 }
 
+.social-links  li {
+  list-style: none;
+  display: inline;
+}
+
+#contato button:hover {
+  background-color: #2e9b7a;
+  color: #14463a;
+}
+
+.social-links  a {
+  text-decoration: none;
+}
+
+.text-color {
+color: #14463a;
+}
+
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 180px;
+  }
+
+  
+  
+}
